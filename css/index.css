@@ -1,13 +1,10 @@
-img{
-    width: 300px;
-}
-
 header {
     background-image: url(../img/atelie.jpg);
     background-size: cover;
     background-position: center;
-    height: 850px;
+    height: 810px;
     max-width: 1280px;
+
 }
 
 .menu a, .meet {
@@ -16,35 +13,68 @@ header {
     letter-spacing: 1px;
     padding: 10px;
     color: #FFFFFF;
+}
+
+button.meet{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white; 
+    transition-duration: 0.2s;
+}
+.meet:hover{
+    background-color:white;
+    color: black;
+    border: 3px solid white;
 
 }
 
 nav .menu {
        position: absolute;
-       right: 50px;
+       right: 60px;   
    }
+
    .logo {
-    color:#F81212;
-  
+    color:#F81212; 
 }
 .logo-a {
     color: white;
-    
+   
 }
 
 .banner {
-    font-family: 'GARAMOND', sans-serif;
+    font-family: 'ARIAL BLACK', sans-serif;
     font-size: 25px;
-    color: rgb(255, 22, 22);
-    margin-left: 400px;
-    content: center;
-
-nav {
-
+    color: white;
+    margin-top: 300px;
 }
-.logo-g {
-    
-
+.banner h1 {
+    text-align: center;
 }
-
-
+.banner h3 {
+    text-align: center;
+}
+.dream {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+}
+.text-about {
+    font-size: 20px;
+    color: black;
+    margin-left: 30px;
+    margin-top: 3%; 
+}
+.serves-card {
+    background-image: url(../img/atelie-room.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    max-width: 1280px;
+}
+.serves-card h2 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+}
