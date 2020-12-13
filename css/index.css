@@ -1,0 +1,50 @@
+img{
+    width: 300px;
+}
+
+header {
+    background-image: url(../img/atelie.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    max-width: 1280px;
+}
+
+.menu a, .meet {
+    font-family: 'constantia';
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: #FFFFFF;
+
+}
+
+nav .menu {
+       position: absolute;
+       right: 50px;
+   }
+   .logo {
+    color:#F81212;
+  
+}
+.logo-a {
+    color: white;
+    
+}
+
+.banner {
+    font-family: 'GARAMOND', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 22, 22);
+    margin-left: 400px;
+    content: center;
+
+nav {
+
+}
+.logo-g {
+    
+
+}
+
+
