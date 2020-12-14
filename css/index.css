@@ -78,3 +78,33 @@ nav .menu {
     text-align: center;
     margin-top: 3%;
 }
+.order-n img {
+    width: 7%;
+    display: block;
+    margin-left:50 ;
+}
+.order-n {
+    border: 1px solid black;
+    margin-left: 50px;
+    padding: 5px;
+}
+.order-w img {
+    width: 7%;
+    display: block;
+    margin-left:300 ;
+}
+.order-w {
+    border: 1px solid black;
+    margin-left: 300px;
+    padding: 5px;
+}
+.order-d img {
+    width: 7%;
+    display: block;
+    margin-left:600 ;
+}
+.order-d {
+    border: 1px solid black;
+    margin-left: 600px;
+    padding: 5px;
+}
